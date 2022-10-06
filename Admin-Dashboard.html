@@ -35,7 +35,7 @@
 
 <body>
     <!-----------------**menu start**---------------------->
-    <div class="grid grid-cols-5 gap-2 relative d-container">
+    <div class="grid grid-cols-5 gap-4 relative d-container">
         <div class="w-full h-screen allMenu shadow-md " id="sidenavSecExample"
             style="background: linear-gradient(180deg, #250862 0%, #950086 100%)">
             <iconify-icon
@@ -494,7 +494,7 @@
         </div>
         <!-----------------**menu end**---------------------->
 
-        <div class="col-span-4 mt-10">
+        <div class="col-span-4 mt-10 mx-3">
             <div class="grid grid-cols-3 gap-3">
                 <div class="">
                     <input type="search"
@@ -511,7 +511,7 @@
                         class=" px-6 py-2.5 text-white text-xs rounded hover:shadow-2xl transform ">Reports</button>
                 </div>
 
-                <div class="flex items-center justify-end">
+                <div class="flex items-center justify-center">
 
                     <button class="dropdown-toggle px-3 py-2.5 text-black bg-transparent
                                  text-xs font-bold rounded" type="button" id="dropdownMenuButton1"
@@ -569,7 +569,7 @@
                     <ul class="dropdown-menu min-w-max 
                                 bg-white text-base z-50 float-left pb-2 list-none text-left rounded-lg rounded-t-none shadow-lg mt-1
                                 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton1">
-                        <li class="px-2 py-2 w-[260px] text-white text-2xl"
+                        <li class="px-2 py-2 w-full text-white text-2xl"
                             style="background: linear-gradient(90deg, #250862 0%, #950086 100%)">
                             <p>Notifications</p>
                         </li>
@@ -606,7 +606,7 @@
                         </li>
                     </ul>
 
-                    <button class="dropdown-toggle px-3 py-2.5 mr-3 text-black bg-transparent
+                    <button class="dropdown-toggle px-3 py-2.5 text-black bg-transparent
                                  text-xs font-bold rounded" type="button" id="dropdownMenuButton1"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         <img class="rounded-full w-[34px] h-[34px]" src="./img/profile.jpg " alt="">
@@ -633,25 +633,10 @@
                                     bg-transparent
                                     text-gray-700
                                     hover:bg-gray-100
-                                  " href="#"><iconify-icon icon="bxs:user"></iconify-icon>
-                                   VIEW PROFILE</a>
-                        </li>
-
-                        <li>
-                            <a class="
-                                    dropdown-item
-                                    text-sm
-                                    py-2
-                                    px-4
-                                    font-normal
-                                    block
-                                    w-full
-                                    whitespace-nowrap
-                                    bg-transparent
-                                    text-gray-700
-                                    hover:bg-gray-100
-                                  " href="#"><iconify-icon icon="carbon:password"></iconify-icon>
-                                  PASSWORD</a>
+                                  " href="#">
+                                <iconify-icon icon="bxs:user"></iconify-icon>
+                                VIEW PROFILE
+                            </a>
                         </li>
 
                         <li>
@@ -668,18 +653,101 @@
                                     text-gray-700
                                     hover:bg-gray-100
                                   " href="#">
-                                  <iconify-icon icon="ri:logout-circle-r-line"></iconify-icon>
-                                  LOGOUT</a>
+                                <iconify-icon icon="carbon:password"></iconify-icon>
+                                PASSWORD
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="
+                                    dropdown-item
+                                    text-sm
+                                    py-2
+                                    px-4
+                                    font-normal
+                                    block
+                                    w-full
+                                    whitespace-nowrap
+                                    bg-transparent
+                                    text-gray-700
+                                    hover:bg-gray-100
+                                  " href="#">
+                                <iconify-icon icon="ri:logout-circle-r-line"></iconify-icon>
+                                LOGOUT
+                            </a>
                         </li>
                     </ul>
+                </div>
+            </div>
 
+            <div class="text-xl ml-3 mt-3">
+                <h1>Dashboard</h1>
+                <h1>Welcome - Zoom it | Super admin</h1>
+            </div>
+            <div class="grid grid-cols-4 gap-3 mt-4">
+                <div class="bgColor rounded-sm text-white p-3">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-xs">TOTAL PROFIT EARNED</p>
+                            <h3 class="text-2xl">$434</h3>
+                        </div>
+                        <iconify-icon class="text-2xl rounded-full border-[1px] p-1.5" icon="bi:bar-chart-line">
+                        </iconify-icon>
+                    </div>
+                    <span class="text-xs block text-right w-3/4">45%</span>
+                    <div class="w-3/4 bg-gray-200 rounded-full h-1">
+                        <div class="bg-purple-500 rounded-full h-1" style="width: 45%"></div>
+                    </div>
+                </div>
+
+                <div class="bgColor rounded-sm text-white p-3">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-xs">TWeekly Sales</p>
+                            <h3 class="text-2xl">$434</h3>
+                        </div>
+                        <iconify-icon class="text-2xl rounded-full border-[1px] p-1.5" icon="bi:bar-chart-line">
+                        </iconify-icon>
+                    </div>
+                    <span class="text-xs block text-right w-3/4">45%</span>
+                    <div class="w-3/4 bg-gray-200 rounded-full h-1">
+                        <div class="bg-purple-500 rounded-full h-1" style="width: 45%"></div>
+                    </div>
+                </div>
+
+                <div class="bgColor rounded-sm text-white p-3">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-xs">TOTAL CUSTOMERS</p>
+                            <h3 class="text-2xl">434</h3>
+                        </div>
+                        <iconify-icon class="text-2xl rounded-full border-[1px] p-1.5" icon="bi:bar-chart-line">
+                        </iconify-icon>
+                    </div>
+                    <span class="text-xs block text-right w-3/4">45%</span>
+                    <div class="w-3/4 bg-gray-200 rounded-full h-1">
+                        <div class="bg-purple-500 rounded-full h-1" style="width: 45%"></div>
+                    </div>
+                </div>
+
+                <div class="bgColor rounded-sm text-white p-3">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-xs">TOTAL BOOKINGS</p>
+                            <h3 class="text-2xl">434</h3>
+                        </div>
+                        <iconify-icon class="text-2xl rounded-full border-[1px] p-1.5" icon="bi:bar-chart-line">
+                        </iconify-icon>
+                    </div>
+                    <span class="text-xs block text-right w-3/4">45%</span>
+                    <div class="w-3/4 bg-gray-200 rounded-full h-1">
+                        <div class="bg-purple-500 rounded-full h-1" style="width: 45%"></div>
+                    </div>
                 </div>
 
 
-
-
-
             </div>
+
         </div>
 
     </div>

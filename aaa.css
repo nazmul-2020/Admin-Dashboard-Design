@@ -19,7 +19,7 @@
         background-color: rgba(128, 128, 128, 0.488);
 }
 
-.btn {
+.bt {
         background: linear-gradient(90deg, #240862cc 0%, #950086 100%)
 }
 .btn:hover{
@@ -32,4 +32,8 @@
         background-size: cover;
         background-repeat: no-repeat;
 
+        
+}
+.bgColor{
+  background: linear-gradient(90deg, #240862cc 0%, #950086 100%)
 }
