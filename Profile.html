@@ -23,15 +23,12 @@
         }
     </script>
     <link rel="stylesheet" href="./aaa.css">
-    <title>Admin-Dashboard</title>
+    <title>Profile</title>
 </head>
 
 </html>
 </title>
 </head>
-<style>
-
-</style>
 
 <body>
     <!-----------------**menu start**---------------------->
@@ -800,160 +797,126 @@
                 </div>
             </div>
 
-            <div class=" ml-3 mt-1">
-                <h1>Welcome - Zoom it | Super admin</h1>
-            </div>
-            <div class="grid grid-cols-4 gap-3 mt-4">
-                <div class="bgColor rounded text-white p-3">
-                    <div class="flex items-center justify-between">
-                        <div>
-                            <p class="text-xs">TOTAL PROFIT EARNED</p>
-                            <h3 class="text-2xl">$434</h3>
-                        </div>
-                        <iconify-icon class="text-2xl rounded-full border-[1px] p-1.5" icon="bi:bar-chart-line">
-                        </iconify-icon>
-                    </div>
-                    <span class="text-xs block text-right w-3/4">45%</span>
-                    <div class="w-3/4 bg-gray-200 rounded-full h-1">
-                        <div class="bg-purple-500 rounded-full h-1" style="width: 45%"></div>
-                    </div>
-                </div>
-
-                <div class="bgColor rounded text-white p-3">
-                    <div class="flex items-center justify-between">
-                        <div>
-                            <p class="text-xs">TWeekly Sales</p>
-                            <h3 class="text-2xl">$434</h3>
-                        </div>
-                        <iconify-icon class="text-2xl rounded-full border-[1px] p-1.5" icon="bi:bar-chart-line">
-                        </iconify-icon>
-                    </div>
-                    <span class="text-xs block text-right w-3/4">45%</span>
-                    <div class="w-3/4 bg-gray-200 rounded-full h-1">
-                        <div class="bg-purple-500 rounded-full h-1" style="width: 45%"></div>
-                    </div>
-                </div>
-
-                <div class="bgColor rounded text-white p-3">
-                    <div class="flex items-center justify-between">
-                        <div>
-                            <p class="text-xs">TOTAL CUSTOMERS</p>
-                            <h3 class="text-2xl">434</h3>
-                        </div>
-                        <iconify-icon class="text-2xl rounded-full border-[1px] p-1.5" icon="bi:bar-chart-line">
-                        </iconify-icon>
-                    </div>
-                    <span class="text-xs block text-right w-3/4">45%</span>
-                    <div class="w-3/4 bg-gray-200 rounded-full h-1">
-                        <div class="bg-purple-500 rounded-full h-1" style="width: 45%"></div>
-                    </div>
-                </div>
-
-                <div class="bgColor rounded text-white p-3">
-                    <div class="flex items-center justify-between">
-                        <div>
-                            <p class="text-xs">TOTAL BOOKINGS</p>
-                            <h3 class="text-2xl">434</h3>
-                        </div>
-                        <iconify-icon class="text-2xl rounded-full border-[1px] p-1.5" icon="bi:bar-chart-line">
-                        </iconify-icon>
-                    </div>
-                    <span class="text-xs block text-right w-3/4">45%</span>
-                    <div class="w-3/4 bg-gray-200 rounded-full h-1">
-                        <div class="bg-purple-500 rounded-full h-1" style="width: 45%"></div>
-                    </div>
+            <div class=" ml-3 mt-1 flex justify-end">
+                <div class="">
+                    <button type="button"
+                        style=" background: linear-gradient(90deg, #7C32FF 0%, #A235EC 70%, #C738D8 100%);"
+                        class="  px-6 py-2.5 text-white text-xs rounded-full   ">Website</button>
+                    <button type="button"
+                        style=" background: linear-gradient(90deg, #7C32FF 0%, #A235EC 70%, #C738D8 100%);"
+                        class=" px-6 py-2.5 text-white text-xs rounded-full hover:shadow-2xl transform ">Dashboard</button>
+                    <button type="button"
+                        style=" background: linear-gradient(90deg, #7C32FF 0%, #A235EC 70%, #C738D8 100%);"
+                        class=" px-6 py-2.5 text-white text-xs rounded-full hover:shadow-2xl transform ">Reports</button>
                 </div>
             </div>
 
-            <div class="grid grid-cols-3 gap-3 my-4">
-                <div class="col-span-2 bg-white rounded">
-                    <div class="shadow-lg rounded-lg overflow-hidden">
-                        <div class="py-3 px-5 bg-white">Company Growth Yearly</div>
-                        <canvas class="p-10" id="chartLine"></canvas>
-                    </div>
+            <div class=" my-4">
+                <div class=" bg-white rounded p-6">
+                    <h1>Basic Info</h1>
+                    <div class="block p-6 bg-white ">
+                        <form>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="form-group mb-6">
+                                    <label class="mb-1 block text-xs">First Name <span class="text-red-600">*</span></label>
+                                    <input type="text" class=" block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-full transition ease-in-out
+                                m-0 focus:text-gray-700 focus:bg-white focus:outline-none" id="exampleInput123"
+                                        aria-describedby="emailHelp123" placeholder="First Name">
+                                </div>
 
-                    <!-- Required chart.js -->
-                    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-                    <!-- Chart line -->
-                    <script>
-                        const labels = ["January", "February", "March", "April", "May", "June", "July"];
-                        const data = {
-                            labels: labels,
-                            datasets: [
-                                {
-                                    label: "My First dataset",
-                                    backgroundColor: "hsl(252, 82.9%, 67.8%)",
-                                    borderColor: "hsl(252, 82.9%, 67.8%)",
-                                    data: [0, 10, 5, 2, 20, 30, 45],
-                                },
-                            ],
-                        };
-
-                        const configLineChart = {
-                            type: "line",
-                            data,
-                            options: {},
-                        };
-
-                        var chartLine = new Chart(
-                            document.getElementById("chartLine"),
-                            configLineChart
-                        );
-                    </script>
-                </div>
-                <div class="bg-white rounded">
-                    <h1 class="text-center mt-5 pb-5 font-bold">Monthly View</h1>
-                    <hr class="h- bg-slate-400">
-                    </hr>
-                    <div class="mx-8 mt-5">
-                        <div class="w-full ">
-                            <div class="flex justify-between my-2">
-                                <span class="text-sm">Sales</span>
-                                <span class="text-sm bloc text-right">45%</span>
-                            </div>
-
-                            <div class="w-full bg-gray-200 rounded-full">
-                                <div class="bg-purple-500 rounded-full h-3 text-white text-center" style="width: 45%">
+                                <div class="form-group mb-6">
+                                    <label class="mb-1 block text-xs">Last Name <span class="text-red-600">*</span></label>
+                                    <input type="text" class=" block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-full transition ease-in-out
+                                 m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput124" aria-describedby="emailHelp124" placeholder="Last name">
                                 </div>
                             </div>
-                        </div>
-                        <div class="w-full">
-                            <div class="flex justify-between my-2">
-                                <span class="text-sm">Profit</span>
-                                <span class="text-sm bloc text-right">45%</span>
-                            </div>
+                            
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="form-group mb-6">
+                                    <label class="mb-1 block text-xs">EMAIL ADDRESS<span class="text-red-600">*</span></label>
+                                    <input type="text" class=" block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-full transition ease-in-out
+                                m-0 focus:text-gray-700 focus:bg-white focus:outline-none" id="exampleInput123"
+                                        aria-describedby="emailHelp123" placeholder="Email Address">
+                                </div>
 
-                            <div class="w-full bg-gray-200 rounded-full">
-                                <div class="bg-purple-500 rounded-full h-3 text-white text-center" style="width: 45%">
+                                <div class="form-group mb-6">
+                                    <label class="mb-1 block text-xs">Last Name <span class="text-red-600">*</span></label>
+                                    <input type="text" class=" block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-full transition ease-in-out
+                                 m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput124" aria-describedby="emailHelp124" placeholder="Last name">
                                 </div>
                             </div>
-                        </div>
-                        <div class="w-full ">
-                            <div class="flex justify-between my-2">
-                                <span class="text-sm">Users</span>
-                                <span class="text-sm bloc text-right">45%</span>
-                            </div>
 
-                            <div class="w-full bg-gray-200 rounded-full">
-                                <div class="bg-purple-500 rounded-full h-3 text-white text-center" style="width: 45%">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="w-full h-">
-                            <div class="flex justify-between my-2">
-                                <span class="text-sm">Growth</span>
-                                <span class="text-sm bloc text-right">45%</span>
-                            </div>
 
-                            <div class="w-full bg-gray-200 rounded-full">
-                                <div class="bg-purple-500 rounded-full h-3 text-white text-center" style="width: 45%">
-                                </div>
+
+
+
+
+
+
+                            <div class="form-group mb-6">
+                                <input type="email" class="form-control block
+                              w-full
+                              px-3
+                              py-1.5
+                              text-base
+                              font-normal
+                              text-gray-700
+                              bg-white bg-clip-padding
+                              border border-solid border-gray-300
+                              rounded
+                              transition
+                              ease-in-out
+                              m-0
+                              focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                                    id="exampleInput125" placeholder="Email address">
                             </div>
-                        </div>
+                            <div class="form-group mb-6">
+                                <input type="password" class="form-control block
+                              w-full
+                              px-3
+                              py-1.5
+                              text-base
+                              font-normal
+                              text-gray-700
+                              bg-white bg-clip-padding
+                              border border-solid border-gray-300
+                              rounded
+                              transition
+                              ease-in-out
+                              m-0
+                              focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                                    id="exampleInput126" placeholder="Password">
+                            </div>
+                            <div class="form-group form-check text-center mb-6">
+                                <input type="checkbox"
+                                    class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer"
+                                    id="exampleCheck25" checked>
+                                <label class="form-check-label inline-block text-gray-800"
+                                    for="exampleCheck25">Subscribe to our newsletter</label>
+                            </div>
+                            <button type="submit" class="
+                            w-full
+                            px-6
+                            py-2.5
+                            bg-blue-600
+                            text-white
+                            font-medium
+                            text-xs
+                            leading-tight
+                            uppercase
+                            rounded
+                            shadow-md
+                            hover:bg-blue-700 hover:shadow-lg
+                            focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
+                            active:bg-blue-800 active:shadow-lg
+                            transition
+                            duration-150
+                            ease-in-out">Sign up</button>
+                        </form>
                     </div>
                 </div>
             </div>
+
             <div class=" pb-2  ">
                 <p class="text-sm text-center ">Copyright &copy; ZOOM IT 2022</p>
             </div>

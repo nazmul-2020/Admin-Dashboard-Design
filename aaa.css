@@ -22,7 +22,8 @@
 .bt {
         background: linear-gradient(90deg, #240862cc 0%, #950086 100%)
 }
-.btn:hover{
+
+.btn:hover {
         /* background: linear-gradient(90deg,#950086 0%, #250862cc 100%) */
 }
 
@@ -32,8 +33,15 @@
         background-size: cover;
         background-repeat: no-repeat;
 
-        
+
 }
-.bgColor{
-  background: linear-gradient(90deg, #240862cc 0%, #950086 100%)
+
+.bgColor {
+        background: linear-gradient(90deg, #240862cc 0%, #950086 100%);
+        /* background: linear-gradient(90deg, #7C32FF 0%, #A235EC 70%, #C738D8 100%); */
+}
+
+.ddd{
+        background: linear-gradient(90deg, #7C32FF 0%, #A235EC 70%, #C738D8 100%);
+        color: white;
 }
