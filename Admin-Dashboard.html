@@ -743,8 +743,6 @@
                         <div class="bg-purple-500 rounded-full h-1" style="width: 45%"></div>
                     </div>
                 </div>
-
-
             </div>
 
             <div class="grid grid-cols-3 gap-3 mt-4">
@@ -752,46 +750,86 @@
                     <div class="shadow-lg rounded-lg overflow-hidden">
                         <div class="py-3 px-5 bg-white">Company Growth Yearly</div>
                         <canvas class="p-10" id="chartLine"></canvas>
-                      </div>
-                      
-                      <!-- Required chart.js -->
-                      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-                      
-                      <!-- Chart line -->
-                      <script>
-                        const labels = ["January", "February", "March", "April", "May", "June","July"];
+                    </div>
+
+                    <!-- Required chart.js -->
+                    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+                    <!-- Chart line -->
+                    <script>
+                        const labels = ["January", "February", "March", "April", "May", "June", "July"];
                         const data = {
-                          labels: labels,
-                          datasets: [
-                            {
-                              label: "My First dataset",
-                              backgroundColor: "hsl(252, 82.9%, 67.8%)",
-                              borderColor: "hsl(252, 82.9%, 67.8%)",
-                              data: [0, 10, 5, 2, 20, 30, 45],
-                            },
-                          ],
+                            labels: labels,
+                            datasets: [
+                                {
+                                    label: "My First dataset",
+                                    backgroundColor: "hsl(252, 82.9%, 67.8%)",
+                                    borderColor: "hsl(252, 82.9%, 67.8%)",
+                                    data: [0, 10, 5, 2, 20, 30, 45],
+                                },
+                            ],
                         };
-                      
+
                         const configLineChart = {
-                          type: "line",
-                          data,
-                          options: {},
+                            type: "line",
+                            data,
+                            options: {},
                         };
-                      
+
                         var chartLine = new Chart(
-                          document.getElementById("chartLine"),
-                          configLineChart
+                            document.getElementById("chartLine"),
+                            configLineChart
                         );
-                      </script>
+                    </script>
                 </div>
                 <div class="bg-white rounded">
-                    <h1 class="text-center mt-5">Monthly View</h1>
-                    <div class="mx-10">
-                        <div class="w-full h-">
-                            <div>
-                                <span class="text-xl">Sales</span>
+                    <h1 class="text-center mt-5 pb-5 font-bold">Monthly View</h1>
+                    <hr class="h- bg-slate-400">
+                    </hr>
+                    <div class="mx-8 mt-5">
+                        <div class="w-full ">
+                            <div class="flex justify-between my-2">
+                                <span class="text-sm">Sales</span>
+                                <span class="text-sm bloc text-right">45%</span>
                             </div>
-                            <div class="bg-purple-500 rounded-full h-3 text-white text-center" style="width: 45%"></div>
+
+                            <div class="w-full bg-gray-200 rounded-full">
+                                <div class="bg-purple-500 rounded-full h-3 text-white text-center" style="width: 45%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full">
+                            <div class="flex justify-between my-2">
+                                <span class="text-sm">Profit</span>
+                                <span class="text-sm bloc text-right">45%</span>
+                            </div>
+
+                            <div class="w-full bg-gray-200 rounded-full">
+                                <div class="bg-purple-500 rounded-full h-3 text-white text-center" style="width: 45%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full ">
+                            <div class="flex justify-between my-2">
+                                <span class="text-sm">Users</span>
+                                <span class="text-sm bloc text-right">45%</span>
+                            </div>
+
+                            <div class="w-full bg-gray-200 rounded-full">
+                                <div class="bg-purple-500 rounded-full h-3 text-white text-center" style="width: 45%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full h-">
+                            <div class="flex justify-between my-2">
+                                <span class="text-sm">Growth</span>
+                                <span class="text-sm bloc text-right">45%</span>
+                            </div>
+
+                            <div class="w-full bg-gray-200 rounded-full">
+                                <div class="bg-purple-500 rounded-full h-3 text-white text-center" style="width: 45%">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
