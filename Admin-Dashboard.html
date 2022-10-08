@@ -494,7 +494,7 @@
         </div>
         <!-----------------**menu end**---------------------->
 
-        <div class="col-span-4 mt-10 mx-3">
+        <div class="col-span-4 mt-5 mx-3">
             <div class="grid grid-cols-3 gap-3">
                 <div class="">
                     <input type="search"
@@ -569,7 +569,7 @@
                     <ul class="dropdown-menu min-w-max 
                                 bg-white text-base z-50 float-left pb-2 list-none text-left rounded-lg rounded-t-none shadow-lg mt-1
                                 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton1">
-                        <li class="px-2 py-2 w-full text-white text-2xl"
+                        <li class="px-2 py-2 w-full text-white text-"
                             style="background: linear-gradient(90deg, #250862 0%, #950086 100%)">
                             <p>Notifications</p>
                         </li>
@@ -680,12 +680,11 @@
                 </div>
             </div>
 
-            <div class="text-xl ml-3 mt-3">
-                <h1>Dashboard</h1>
+            <div class=" ml-3 mt-1">
                 <h1>Welcome - Zoom it | Super admin</h1>
             </div>
             <div class="grid grid-cols-4 gap-3 mt-4">
-                <div class="bgColor rounded-sm text-white p-3">
+                <div class="bgColor rounded text-white p-3">
                     <div class="flex items-center justify-between">
                         <div>
                             <p class="text-xs">TOTAL PROFIT EARNED</p>
@@ -700,7 +699,7 @@
                     </div>
                 </div>
 
-                <div class="bgColor rounded-sm text-white p-3">
+                <div class="bgColor rounded text-white p-3">
                     <div class="flex items-center justify-between">
                         <div>
                             <p class="text-xs">TWeekly Sales</p>
@@ -715,7 +714,7 @@
                     </div>
                 </div>
 
-                <div class="bgColor rounded-sm text-white p-3">
+                <div class="bgColor rounded text-white p-3">
                     <div class="flex items-center justify-between">
                         <div>
                             <p class="text-xs">TOTAL CUSTOMERS</p>
@@ -730,7 +729,7 @@
                     </div>
                 </div>
 
-                <div class="bgColor rounded-sm text-white p-3">
+                <div class="bgColor rounded text-white p-3">
                     <div class="flex items-center justify-between">
                         <div>
                             <p class="text-xs">TOTAL BOOKINGS</p>
@@ -746,6 +745,56 @@
                 </div>
 
 
+            </div>
+
+            <div class="grid grid-cols-3 gap-3 mt-4">
+                <div class="col-span-2 bg-white rounded">
+                    <div class="shadow-lg rounded-lg overflow-hidden">
+                        <div class="py-3 px-5 bg-white">Company Growth Yearly</div>
+                        <canvas class="p-10" id="chartLine"></canvas>
+                      </div>
+                      
+                      <!-- Required chart.js -->
+                      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                      
+                      <!-- Chart line -->
+                      <script>
+                        const labels = ["January", "February", "March", "April", "May", "June","July"];
+                        const data = {
+                          labels: labels,
+                          datasets: [
+                            {
+                              label: "My First dataset",
+                              backgroundColor: "hsl(252, 82.9%, 67.8%)",
+                              borderColor: "hsl(252, 82.9%, 67.8%)",
+                              data: [0, 10, 5, 2, 20, 30, 45],
+                            },
+                          ],
+                        };
+                      
+                        const configLineChart = {
+                          type: "line",
+                          data,
+                          options: {},
+                        };
+                      
+                        var chartLine = new Chart(
+                          document.getElementById("chartLine"),
+                          configLineChart
+                        );
+                      </script>
+                </div>
+                <div class="bg-white rounded">
+                    <h1 class="text-center mt-5">Monthly View</h1>
+                    <div class="mx-10">
+                        <div class="w-full h-">
+                            <div>
+                                <span class="text-xl">Sales</span>
+                            </div>
+                            <div class="bg-purple-500 rounded-full h-3 text-white text-center" style="width: 45%"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
