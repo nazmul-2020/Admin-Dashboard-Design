@@ -32,621 +32,644 @@
 
 <body>
     <!-----------------**menu start**---------------------->
-    <div class="grid grid-cols-5 gap-4  d-container">
-        <div class=" h-screen allMenu shadow-md static top-0 " id="sidenavSecExample"
-            style="background: linear-gradient(180deg, #250862 0%, #950086 100%)">
-            <iconify-icon
-                class="text-purple-800 font-bold text-lg bg-white rounded-full       border-purple-600 border-[1px] p-1.5 absolute top-8 left-[225px] "
-                icon="ep:arrow-left"></iconify-icon>
-            <div class="pt-4 pb-2 px-6 mt-3">
-                <a href="#!">
-                    <div class="mx-auto">
-                        <img src="https://thezoomit.com/img/Zoom-IT.png" class=" w-44 h-full" alt="Avatar">
-                    </div>
-                </a>
+    <div class="d-container">
+        <div class="grid grid-cols-5 gap-4 ">
+            <div class=" h-screen allMenu shadow-md static top-0 " id="sidenavSecExample"
+                style="background: linear-gradient(180deg, #250862 0%, #950086 100%)">
+                <iconify-icon
+                    class="text-purple-800 font-bold text-lg bg-white rounded-full       border-purple-600 border-[1px] p-1.5 absolute top-8 left-[225px] "
+                    icon="ep:arrow-left"></iconify-icon>
+                <div class="pt-4 pb-2 px-6 mt-3">
+                    <a href="#!">
+                        <div class="mx-auto">
+                            <img src="https://thezoomit.com/img/Zoom-IT.png" class=" w-44 h-full" alt="Avatar">
+                        </div>
+                    </a>
+                </div>
+
+                <ul class="relative px-1">
+                    <li class="relative">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            href="#!" data-mdb-ripple="true" data-mdb-ripple-color="primary">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="ant-design:dashboard-outlined"></iconify-icon>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li class="relative" id="sidenavSecEx2">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSidenavSecEx2" aria-expanded="false"
+                            aria-controls="collapseSidenavSecEx2">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="gg:menu"></iconify-icon>
+                            <span>MENU</span>
+                            <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
+                        </a>
+                        <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx2"
+                            aria-labelledby="sidenavSecEx2" data-bs-parent="#sidenavSecExample">
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Admin Section</a>
+                            </li>
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Admission Query </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="relative" id="sidenavSecEx3">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
+                            aria-controls="collapseSidenavSecEx3">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student">
+                            </iconify-icon>
+                            <span>Student</span>
+                            <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
+                            </svg>
+                        </a>
+                        <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
+                            aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
+                            </li>
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="relative" id="sidenavSecEx3">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
+                            aria-controls="collapseSidenavSecEx3">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student">
+                            </iconify-icon>
+                            <span>Student</span>
+                            <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
+                            </svg>
+                        </a>
+                        <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
+                            aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
+                            </li>
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="relative" id="sidenavSecEx3">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
+                            aria-controls="collapseSidenavSecEx3">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student">
+                            </iconify-icon>
+                            <span>Student</span>
+                            <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
+                            </svg>
+                        </a>
+                        <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
+                            aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
+                            </li>
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="relative" id="sidenavSecEx3">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
+                            aria-controls="collapseSidenavSecEx3">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student">
+                            </iconify-icon>
+                            <span>Student</span>
+                            <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
+                            </svg>
+                        </a>
+                        <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
+                            aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
+                            </li>
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="relative" id="sidenavSecEx3">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
+                            aria-controls="collapseSidenavSecEx3">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student">
+                            </iconify-icon>
+                            <span>Student</span>
+                            <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
+                            </svg>
+                        </a>
+                        <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
+                            aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
+                            </li>
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="relative" id="sidenavSecEx3">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
+                            aria-controls="collapseSidenavSecEx3">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student">
+                            </iconify-icon>
+                            <span>Student</span>
+                            <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
+                            </svg>
+                        </a>
+                        <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
+                            aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
+                            </li>
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="relative" id="sidenavSecEx3">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
+                            aria-controls="collapseSidenavSecEx3">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student">
+                            </iconify-icon>
+                            <span>Student</span>
+                            <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
+                            </svg>
+                        </a>
+                        <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
+                            aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
+                            </li>
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="relative" id="sidenavSecEx3">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
+                            aria-controls="collapseSidenavSecEx3">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student">
+                            </iconify-icon>
+                            <span>Student</span>
+                            <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
+                            </svg>
+                        </a>
+                        <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
+                            aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
+                            </li>
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="relative" id="sidenavSecEx3">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
+                            aria-controls="collapseSidenavSecEx3">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student">
+                            </iconify-icon>
+                            <span>Student</span>
+                            <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
+                            </svg>
+                        </a>
+                        <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
+                            aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
+                            </li>
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="relative" id="sidenavSecEx3">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
+                            aria-controls="collapseSidenavSecEx3">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student">
+                            </iconify-icon>
+                            <span>Student</span>
+                            <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
+                            </svg>
+                        </a>
+                        <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
+                            aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
+                            </li>
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="relative" id="sidenavSecEx3">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
+                            aria-controls="collapseSidenavSecEx3">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student">
+                            </iconify-icon>
+                            <span>Student</span>
+                            <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
+                            </svg>
+                        </a>
+                        <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
+                            aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
+                            </li>
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="relative" id="sidenavSecEx3">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
+                            aria-controls="collapseSidenavSecEx3">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student">
+                            </iconify-icon>
+                            <span>Student</span>
+                            <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
+                            </svg>
+                        </a>
+                        <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
+                            aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
+                            </li>
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="relative" id="sidenavSecEx3">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
+                            aria-controls="collapseSidenavSecEx3">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student">
+                            </iconify-icon>
+                            <span>Student</span>
+                            <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
+                            </svg>
+                        </a>
+                        <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
+                            aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
+                            </li>
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="relative" id="sidenavSecEx3">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
+                            aria-controls="collapseSidenavSecEx3">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student">
+                            </iconify-icon>
+                            <span>Student</span>
+                            <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
+                            </svg>
+                        </a>
+                        <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
+                            aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
+                            </li>
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="relative" id="sidenavSecEx3">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
+                            aria-controls="collapseSidenavSecEx3">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student">
+                            </iconify-icon>
+                            <span>Student</span>
+                            <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
+                            </svg>
+                        </a>
+                        <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
+                            aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
+                            </li>
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="relative" id="sidenavSecEx3">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
+                            aria-controls="collapseSidenavSecEx3">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student">
+                            </iconify-icon>
+                            <span>Student</span>
+                            <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
+                            </svg>
+                        </a>
+                        <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
+                            aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
+                            </li>
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="relative" id="sidenavSecEx3">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
+                            aria-controls="collapseSidenavSecEx3">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student">
+                            </iconify-icon>
+                            <span>Student</span>
+                            <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
+                            </svg>
+                        </a>
+                        <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
+                            aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
+                            </li>
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="relative" id="sidenavSecEx3">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
+                            aria-controls="collapseSidenavSecEx3">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student">
+                            </iconify-icon>
+                            <span>Student</span>
+                            <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
+                            </svg>
+                        </a>
+                        <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
+                            aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
+                            </li>
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="relative" id="sidenavSecEx3">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
+                            aria-controls="collapseSidenavSecEx3">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student">
+                            </iconify-icon>
+                            <span>Student</span>
+                            <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
+                            </svg>
+                        </a>
+                        <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
+                            aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
+                            </li>
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="relative" id="sidenavSecEx3">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
+                            aria-controls="collapseSidenavSecEx3">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student">
+                            </iconify-icon>
+                            <span>Student</span>
+                            <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
+                            </svg>
+                        </a>
+                        <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
+                            aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
+                            </li>
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="relative" id="sidenavSecEx3">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
+                            aria-controls="collapseSidenavSecEx3">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student">
+                            </iconify-icon>
+                            <span>Student</span>
+                            <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
+                            </svg>
+                        </a>
+                        <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
+                            aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
+                            </li>
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="relative" id="sidenavSecEx3">
+                        <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                            data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
+                            aria-controls="collapseSidenavSecEx3">
+                            <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student">
+                            </iconify-icon>
+                            <span>Student</span>
+                            <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
+                            </svg>
+                        </a>
+                        <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
+                            aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
+                            </li>
+                            <li class="relative">
+                                <a href="#!"
+                                    class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
+                                    data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
+            <!-----------------**menu end**---------------------->
 
-            <ul class="relative px-1">
-                <li class="relative">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        href="#!" data-mdb-ripple="true" data-mdb-ripple-color="primary">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="ant-design:dashboard-outlined"></iconify-icon>
-                        <span>Dashboard</span>
-                    </a>
-                </li>
+            <div class="col-span-4 mt-5 mx-3">
+                <div class="grid grid-cols-3 gap-3">
+                    <div class="">
+                        <input type="search"
+                            class="w-full px-3 py-1.5 font-normal text-black border-0 transition ease-in-out m-0 bg-transparent border-b-[1px] border-b-slate-700 outline-none"
+                            id="exampleInputEmail1" aria-describedby="" placeholder="Search">
+                    </div>
 
-                <li class="relative" id="sidenavSecEx2">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSidenavSecEx2" aria-expanded="false"
-                        aria-controls="collapseSidenavSecEx2">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="gg:menu"></iconify-icon>
-                        <span>MENU</span>
-                        <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
-                    </a>
-                    <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx2"
-                        aria-labelledby="sidenavSecEx2" data-bs-parent="#sidenavSecExample">
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Admin Section</a>
-                        </li>
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Admission Query </a>
-                        </li>
-                    </ul>
-                </li>
+                    <div class="">
+                        <button type="button" style="background: linear-gradient(90deg, #250862 0%, #950086 100%)"
+                            class=" px-6 py-2.5 text-white text-xs rounded hover:shadow-2xl transform ">Website</button>
+                        <button type="button" style="background: linear-gradient(90deg, #250862 0%, #950086 100%)"
+                            class=" px-6 py-2.5 text-white text-xs rounded hover:shadow-2xl transform ">Dashboard</button>
+                        <button type="button" style="background: linear-gradient(90deg, #250862 0%, #950086 100%)"
+                            class=" px-6 py-2.5 text-white text-xs rounded hover:shadow-2xl transform ">Reports</button>
+                    </div>
 
-                <li class="relative" id="sidenavSecEx3">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
-                        aria-controls="collapseSidenavSecEx3">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student"></iconify-icon>
-                        <span>Student</span>
-                        <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
-                        </svg>
-                    </a>
-                    <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
-                        aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
-                        </li>
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="relative" id="sidenavSecEx3">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
-                        aria-controls="collapseSidenavSecEx3">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student"></iconify-icon>
-                        <span>Student</span>
-                        <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
-                        </svg>
-                    </a>
-                    <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
-                        aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
-                        </li>
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="relative" id="sidenavSecEx3">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
-                        aria-controls="collapseSidenavSecEx3">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student"></iconify-icon>
-                        <span>Student</span>
-                        <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
-                        </svg>
-                    </a>
-                    <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
-                        aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
-                        </li>
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="relative" id="sidenavSecEx3">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
-                        aria-controls="collapseSidenavSecEx3">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student"></iconify-icon>
-                        <span>Student</span>
-                        <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
-                        </svg>
-                    </a>
-                    <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
-                        aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
-                        </li>
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="relative" id="sidenavSecEx3">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
-                        aria-controls="collapseSidenavSecEx3">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student"></iconify-icon>
-                        <span>Student</span>
-                        <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
-                        </svg>
-                    </a>
-                    <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
-                        aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
-                        </li>
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="relative" id="sidenavSecEx3">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
-                        aria-controls="collapseSidenavSecEx3">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student"></iconify-icon>
-                        <span>Student</span>
-                        <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
-                        </svg>
-                    </a>
-                    <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
-                        aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
-                        </li>
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="relative" id="sidenavSecEx3">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
-                        aria-controls="collapseSidenavSecEx3">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student"></iconify-icon>
-                        <span>Student</span>
-                        <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
-                        </svg>
-                    </a>
-                    <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
-                        aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
-                        </li>
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="relative" id="sidenavSecEx3">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
-                        aria-controls="collapseSidenavSecEx3">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student"></iconify-icon>
-                        <span>Student</span>
-                        <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
-                        </svg>
-                    </a>
-                    <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
-                        aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
-                        </li>
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="relative" id="sidenavSecEx3">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
-                        aria-controls="collapseSidenavSecEx3">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student"></iconify-icon>
-                        <span>Student</span>
-                        <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
-                        </svg>
-                    </a>
-                    <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
-                        aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
-                        </li>
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="relative" id="sidenavSecEx3">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
-                        aria-controls="collapseSidenavSecEx3">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student"></iconify-icon>
-                        <span>Student</span>
-                        <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
-                        </svg>
-                    </a>
-                    <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
-                        aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
-                        </li>
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="relative" id="sidenavSecEx3">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
-                        aria-controls="collapseSidenavSecEx3">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student"></iconify-icon>
-                        <span>Student</span>
-                        <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
-                        </svg>
-                    </a>
-                    <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
-                        aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
-                        </li>
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="relative" id="sidenavSecEx3">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
-                        aria-controls="collapseSidenavSecEx3">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student"></iconify-icon>
-                        <span>Student</span>
-                        <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
-                        </svg>
-                    </a>
-                    <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
-                        aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
-                        </li>
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="relative" id="sidenavSecEx3">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
-                        aria-controls="collapseSidenavSecEx3">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student"></iconify-icon>
-                        <span>Student</span>
-                        <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
-                        </svg>
-                    </a>
-                    <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
-                        aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
-                        </li>
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="relative" id="sidenavSecEx3">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
-                        aria-controls="collapseSidenavSecEx3">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student"></iconify-icon>
-                        <span>Student</span>
-                        <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
-                        </svg>
-                    </a>
-                    <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
-                        aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
-                        </li>
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="relative" id="sidenavSecEx3">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
-                        aria-controls="collapseSidenavSecEx3">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student"></iconify-icon>
-                        <span>Student</span>
-                        <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
-                        </svg>
-                    </a>
-                    <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
-                        aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
-                        </li>
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="relative" id="sidenavSecEx3">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
-                        aria-controls="collapseSidenavSecEx3">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student"></iconify-icon>
-                        <span>Student</span>
-                        <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
-                        </svg>
-                    </a>
-                    <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
-                        aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
-                        </li>
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="relative" id="sidenavSecEx3">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
-                        aria-controls="collapseSidenavSecEx3">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student"></iconify-icon>
-                        <span>Student</span>
-                        <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
-                        </svg>
-                    </a>
-                    <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
-                        aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
-                        </li>
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="relative" id="sidenavSecEx3">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
-                        aria-controls="collapseSidenavSecEx3">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student"></iconify-icon>
-                        <span>Student</span>
-                        <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
-                        </svg>
-                    </a>
-                    <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
-                        aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
-                        </li>
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="relative" id="sidenavSecEx3">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
-                        aria-controls="collapseSidenavSecEx3">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student"></iconify-icon>
-                        <span>Student</span>
-                        <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
-                        </svg>
-                    </a>
-                    <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
-                        aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
-                        </li>
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="relative" id="sidenavSecEx3">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
-                        aria-controls="collapseSidenavSecEx3">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student"></iconify-icon>
-                        <span>Student</span>
-                        <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
-                        </svg>
-                    </a>
-                    <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
-                        aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
-                        </li>
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="relative" id="sidenavSecEx3">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
-                        aria-controls="collapseSidenavSecEx3">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student"></iconify-icon>
-                        <span>Student</span>
-                        <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
-                        </svg>
-                    </a>
-                    <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
-                        aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
-                        </li>
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="relative" id="sidenavSecEx3">
-                    <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                        data-mdb-ripple="true" data-mdb-ripple-color="primary" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSidenavSecEx3" aria-expanded="false"
-                        aria-controls="collapseSidenavSecEx3">
-                        <iconify-icon class="w-3 h-3 mr-3" icon="fluent-emoji-high-contrast:man-student"></iconify-icon>
-                        <span>Student</span>
-                        <iconify-icon class="w-3 h-3 ml-auto" icon="ant-design:caret-down-outlined"></iconify-icon>
-                        </svg>
-                    </a>
-                    <ul class="relative accordion-collapse collapse" id="collapseSidenavSecEx3"
-                        aria-labelledby="sidenavSecEx3" data-bs-parent="#sidenavSecExample">
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 3</a>
-                        </li>
-                        <li class="relative">
-                            <a href="#!"
-                                class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-white text-ellipsis whitespace-nowrap hover:border-purple-600 hover:text-white hover:bg-purple-700 transition duration-300 ease-in-out"
-                                data-mdb-ripple="true" data-mdb-ripple-color="primary">Link 4</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <!-----------------**menu end**---------------------->
+                    <div class="flex items-center justify-center">
 
-        <div class="col-span-4 mt-5 mx-3">
-            <div class="grid grid-cols-3 gap-3">
-                <div class="">
-                    <input type="search"
-                        class="w-full px-3 py-1.5 font-normal text-black border-0 transition ease-in-out m-0 bg-transparent border-b-[1px] border-b-slate-700 outline-none"
-                        id="exampleInputEmail1" aria-describedby="" placeholder="Search">
-                </div>
-
-                <div class="">
-                    <button type="button" style="background: linear-gradient(90deg, #250862 0%, #950086 100%)"
-                        class=" px-6 py-2.5 text-white text-xs rounded hover:shadow-2xl transform ">Website</button>
-                    <button type="button" style="background: linear-gradient(90deg, #250862 0%, #950086 100%)"
-                        class=" px-6 py-2.5 text-white text-xs rounded hover:shadow-2xl transform ">Dashboard</button>
-                    <button type="button" style="background: linear-gradient(90deg, #250862 0%, #950086 100%)"
-                        class=" px-6 py-2.5 text-white text-xs rounded hover:shadow-2xl transform ">Reports</button>
-                </div>
-
-                <div class="flex items-center justify-center">
-
-                    <button class="dropdown-toggle px-3 py-2.5 text-black bg-transparent
+                        <button class="dropdown-toggle px-3 py-2.5 text-black bg-transparent
                                  text-xs font-bold rounded" type="button" id="dropdownMenuButton1"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Language
-                        <iconify-icon class=" pl-1" icon="akar-icons:chevron-down"></iconify-icon>
-                    </button>
-                    <ul class="dropdown-menu min-w-max 
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Language
+                            <iconify-icon class=" pl-1" icon="akar-icons:chevron-down"></iconify-icon>
+                        </button>
+                        <ul class="dropdown-menu min-w-max 
                                 bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg rounded-t-none shadow-lg mt-1
                                 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton1">
-                        <li class="mx-2">
-                            <input type="text" class="block w-full px-3 py-1.5 text-base font-normal
+                            <li class="mx-2">
+                                <input type="text" class="block w-full px-3 py-1.5 text-base font-normal
                                   text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded outline-none focus:outline-none
                                 " id="exampleFormControlInput1" placeholder="Search..." />
-                        </li>
+                            </li>
 
-                        <li>
-                            <a class="
+                            <li>
+                                <a class="
                                     dropdown-item
                                     text-sm
                                     py-2
@@ -659,9 +682,9 @@
                                     text-gray-700
                                     hover:bg-gray-100
                                   " href="#">English</a>
-                        </li>
-                        <li>
-                            <a class="
+                            </li>
+                            <li>
+                                <a class="
                                     dropdown-item
                                     text-sm
                                     py-2
@@ -674,25 +697,25 @@
                                     text-gray-700
                                     hover:bg-gray-100
                                   " href="#">বাংলা</a>
-                        </li>
-                    </ul>
+                            </li>
+                        </ul>
 
-                    <button class="dropdown-toggle p-[1px] text-black bg-transparent
+                        <button class="dropdown-toggle p-[1px] text-black bg-transparent
                                  font-bold rounded-full text-lg relative" type="button" id="dropdownMenuButton1"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        <iconify-icon class="text-2xl" icon="ic:baseline-notifications-none">
-                        </iconify-icon>
-                    </button>
-                    <ul class="dropdown-menu min-w-max 
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <iconify-icon class="text-2xl" icon="ic:baseline-notifications-none">
+                            </iconify-icon>
+                        </button>
+                        <ul class="dropdown-menu min-w-max 
                                 bg-white text-base z-50 float-left pb-2 list-none text-left rounded-lg rounded-t-none shadow-lg mt-1
                                 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton1">
-                        <li class="px-2 py-2 w-full text-white text-"
-                            style="background: linear-gradient(90deg, #250862 0%, #950086 100%)">
-                            <p>Notifications</p>
-                        </li>
+                            <li class="px-2 py-2 w-full text-white text-"
+                                style="background: linear-gradient(90deg, #250862 0%, #950086 100%)">
+                                <p>Notifications</p>
+                            </li>
 
-                        <li>
-                            <a class="
+                            <li>
+                                <a class="
                                     dropdown-item
                                     text-sm
                                     py-2
@@ -705,9 +728,9 @@
                                     text-gray-700
                                     hover:bg-gray-100
                                   " href="#">English</a>
-                        </li>
-                        <li>
-                            <a class="
+                            </li>
+                            <li>
+                                <a class="
                                     dropdown-item
                                     text-sm
                                     py-2
@@ -720,25 +743,25 @@
                                     text-gray-700
                                     hover:bg-gray-100
                                   " href="#">বাংলা</a>
-                        </li>
-                    </ul>
+                            </li>
+                        </ul>
 
-                    <button class="dropdown-toggle px-3 py-2.5 text-black bg-transparent
+                        <button class="dropdown-toggle px-3 py-2.5 text-black bg-transparent
                                  text-xs font-bold rounded" type="button" id="dropdownMenuButton1"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        <img class="rounded-full w-[34px] h-[34px]" src="./img/profile.jpg " alt="">
-                    </button>
-                    <ul class="dropdown-menu min-w-max 
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img class="rounded-full w-[34px] h-[34px]" src="./img/profile.jpg " alt="">
+                        </button>
+                        <ul class="dropdown-menu min-w-max 
                                 bg-gray-400 text-base z-50 float-left py-2 list-none text-left rounded-lg rounded-t-none shadow-lg mt-1
                                 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton1">
-                        <li class="mx-2">
-                            <p>Welcome SuperAdmin !</p>
-                            <span>Super</span>
-                            <hr>
-                        </li>
+                            <li class="mx-2">
+                                <p>Welcome SuperAdmin !</p>
+                                <span>Super</span>
+                                <hr>
+                            </li>
 
-                        <li>
-                            <a class="
+                            <li>
+                                <a class="
                                     dropdown-item
                                     text-sm
                                     py-2
@@ -751,13 +774,13 @@
                                     text-gray-700
                                     hover:bg-gray-100
                                   " href="#">
-                                <iconify-icon icon="bxs:user"></iconify-icon>
-                                VIEW PROFILE
-                            </a>
-                        </li>
+                                    <iconify-icon icon="bxs:user"></iconify-icon>
+                                    VIEW PROFILE
+                                </a>
+                            </li>
 
-                        <li>
-                            <a class="
+                            <li>
+                                <a class="
                                     dropdown-item
                                     text-sm
                                     py-2
@@ -770,13 +793,13 @@
                                     text-gray-700
                                     hover:bg-gray-100
                                   " href="#">
-                                <iconify-icon icon="carbon:password"></iconify-icon>
-                                PASSWORD
-                            </a>
-                        </li>
+                                    <iconify-icon icon="carbon:password"></iconify-icon>
+                                    PASSWORD
+                                </a>
+                            </li>
 
-                        <li>
-                            <a class="
+                            <li>
+                                <a class="
                                     dropdown-item
                                     text-sm
                                     py-2
@@ -789,140 +812,102 @@
                                     text-gray-700
                                     hover:bg-gray-100
                                   " href="#">
-                                <iconify-icon icon="ri:logout-circle-r-line"></iconify-icon>
-                                LOGOUT
-                            </a>
-                        </li>
-                    </ul>
+                                    <iconify-icon icon="ri:logout-circle-r-line"></iconify-icon>
+                                    LOGOUT
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
 
-            <div class=" ml-3 mt-1 flex justify-end">
-                <div class="">
-                    <button type="button"
-                        style=" background: linear-gradient(90deg, #7C32FF 0%, #A235EC 70%, #C738D8 100%);"
-                        class="  px-6 py-2.5 text-white text-xs rounded-full   ">Website</button>
-                    <button type="button"
-                        style=" background: linear-gradient(90deg, #7C32FF 0%, #A235EC 70%, #C738D8 100%);"
-                        class=" px-6 py-2.5 text-white text-xs rounded-full hover:shadow-2xl transform ">Dashboard</button>
-                    <button type="button"
-                        style=" background: linear-gradient(90deg, #7C32FF 0%, #A235EC 70%, #C738D8 100%);"
-                        class=" px-6 py-2.5 text-white text-xs rounded-full hover:shadow-2xl transform ">Reports</button>
+                <div class=" ml-3 mt-1 flex justify-end">
+                    <div class="">
+                        <button type="button"
+                            style=" background: linear-gradient(90deg, #7C32FF 0%, #A235EC 70%, #C738D8 100%);"
+                            class="  px-6 py-2.5 text-white text-xs rounded-full   ">Website</button>
+                        <button type="button"
+                            style=" background: linear-gradient(90deg, #7C32FF 0%, #A235EC 70%, #C738D8 100%);"
+                            class=" px-6 py-2.5 text-white text-xs rounded-full hover:shadow-2xl transform ">Dashboard</button>
+                        <button type="button"
+                            style=" background: linear-gradient(90deg, #7C32FF 0%, #A235EC 70%, #C738D8 100%);"
+                            class=" px-6 py-2.5 text-white text-xs rounded-full hover:shadow-2xl transform ">Reports</button>
+                    </div>
                 </div>
-            </div>
 
-            <div class=" my-4">
-                <div class=" bg-white rounded p-6">
-                    <h1>Basic Info</h1>
-                    <div class="block p-6 bg-white ">
-                        <form>
-                            <div class="grid grid-cols-2 gap-4">
-                                <div class="form-group mb-6">
-                                    <label class="mb-1 block text-xs">First Name <span class="text-red-600">*</span></label>
-                                    <input type="text" class=" block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-full transition ease-in-out
+                <div class=" my-4">
+                    <div class=" bg-white rounded p-6">
+                        <h1>Basic Info</h1>
+                        <div class="block p-6 bg-white ">
+                            <form>
+                                <div class="grid grid-cols-2 gap-4">
+                                    <div class="form-group mb-2">
+                                        <label class="mb-1 block text-xs">First Name <span
+                                                class="text-red-600">*</span></label>
+                                        <input type="text" class=" block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-full transition ease-in-out
                                 m-0 focus:text-gray-700 focus:bg-white focus:outline-none" id="exampleInput123"
-                                        aria-describedby="emailHelp123" placeholder="First Name">
-                                </div>
+                                            aria-describedby="emailHelp123" placeholder="First Name">
+                                    </div>
 
-                                <div class="form-group mb-6">
-                                    <label class="mb-1 block text-xs">Last Name <span class="text-red-600">*</span></label>
-                                    <input type="text" class=" block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-full transition ease-in-out
-                                 m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput124" aria-describedby="emailHelp124" placeholder="Last name">
-                                </div>
-                            </div>
-                            
-                            <div class="grid grid-cols-2 gap-4">
-                                <div class="form-group mb-6">
-                                    <label class="mb-1 block text-xs">EMAIL ADDRESS<span class="text-red-600">*</span></label>
-                                    <input type="text" class=" block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-full transition ease-in-out
+                                    <div class="form-group mb-2">
+                                        <label class="mb-1 block text-xs">Last Name <span
+                                                class="text-red-600">*</span></label>
+                                        <input type="text" class=" block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-full transition ease-in-out
+                                 m-0 focus:text-gray-700 focus:bg-white focus:outline-none" id="exampleInput124"
+                                            aria-describedby="emailHelp124" placeholder="Last name">
+                                    </div>
+
+                                    <div class="form-group mb-2">
+                                        <label class="mb-1 block text-xs">EMAIL ADDRESS<span
+                                                class="text-red-600">*</span></label>
+                                        <input type="text" class=" block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-full transition ease-in-out
                                 m-0 focus:text-gray-700 focus:bg-white focus:outline-none" id="exampleInput123"
-                                        aria-describedby="emailHelp123" placeholder="Email Address">
+                                            aria-describedby="emailHelp123" placeholder="Email Address">
+                                    </div>
+
+                                    <div class="form-group mb-2">
+                                        <label class="mb-1 block text-xs">Phone Number<span
+                                                class="text-red-600">*</span></label>
+                                        <input type="text" class=" block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-full transition ease-in-out
+                                 m-0 focus:text-gray-700 focus:bg-white focus:outline-none" id="exampleInput124"
+                                            aria-describedby="emailHelp124" placeholder="Phone Number">
+                                    </div>
+
+                                    <div class=" datepicker mb-3 " data-mdb-toggle-button="false">
+                                        <label class="mb-1 block text-xs">DATE OF BIRTH<span
+                                                class="text-red-600">*</span></label>
+                                        <input type="text"
+                                            class=" block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-full transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:outline-none"
+                                            placeholder="Date" data-mdb-toggle="datepicker" />
+                                    </div>
+
+                                    <div class="">
+                                        <label class="mb-1 block text-xs">AVATAR (165X165)PX</label>
+                                        <input class="rounded-full px-3 py-1.5 border  bg-slate-5" type="file"
+                                            id="imageFile" accept="image/*" />
+                                    </div>
+
+                                    <div class="form-group mb-6 grid ">
+                                        <label class="mb-1 block text-xs">DESCRIPTION</label>
+                                        <textarea rows="5" class=" block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out
+                                             m-0 focus:text-gray-700 focus:bg-white focus:outline-none"
+                                            id="exampleInput124" aria-describedby="emailHelp124"
+                                            placeholder="DESCRIPTION" class="text-red-800"></textarea>
+                                    </div>
+
                                 </div>
-
-                                <div class="form-group mb-6">
-                                    <label class="mb-1 block text-xs">Last Name <span class="text-red-600">*</span></label>
-                                    <input type="text" class=" block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-full transition ease-in-out
-                                 m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput124" aria-describedby="emailHelp124" placeholder="Last name">
-                                </div>
-                            </div>
-
-
-
-
-
-
-
-
-                            <div class="form-group mb-6">
-                                <input type="email" class="form-control block
-                              w-full
-                              px-3
-                              py-1.5
-                              text-base
-                              font-normal
-                              text-gray-700
-                              bg-white bg-clip-padding
-                              border border-solid border-gray-300
-                              rounded
-                              transition
-                              ease-in-out
-                              m-0
-                              focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                                    id="exampleInput125" placeholder="Email address">
-                            </div>
-                            <div class="form-group mb-6">
-                                <input type="password" class="form-control block
-                              w-full
-                              px-3
-                              py-1.5
-                              text-base
-                              font-normal
-                              text-gray-700
-                              bg-white bg-clip-padding
-                              border border-solid border-gray-300
-                              rounded
-                              transition
-                              ease-in-out
-                              m-0
-                              focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                                    id="exampleInput126" placeholder="Password">
-                            </div>
-                            <div class="form-group form-check text-center mb-6">
-                                <input type="checkbox"
-                                    class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer"
-                                    id="exampleCheck25" checked>
-                                <label class="form-check-label inline-block text-gray-800"
-                                    for="exampleCheck25">Subscribe to our newsletter</label>
-                            </div>
-                            <button type="submit" class="
-                            w-full
-                            px-6
-                            py-2.5
-                            bg-blue-600
-                            text-white
-                            font-medium
-                            text-xs
-                            leading-tight
-                            uppercase
-                            rounded
-                            shadow-md
-                            hover:bg-blue-700 hover:shadow-lg
-                            focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
-                            active:bg-blue-800 active:shadow-lg
-                            transition
-                            duration-150
-                            ease-in-out">Sign up</button>
-                        </form>
+                                <button type="submit" class="px-6 py-2.5 bg-purple-600
+                                text-white font-medium text-xs leading-tight uppercase rounded
+                shadow-md ease-in-out block mx-auto">Update</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class=" pb-2  ">
-                <p class="text-sm text-center ">Copyright &copy; ZOOM IT 2022</p>
-            </div>
         </div>
 
-    </div>
+        <div class=" py-5 mx-auto ">
+            <p class="text-sm text-center">Copyright &copy; ZOOM IT 2022</p>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
