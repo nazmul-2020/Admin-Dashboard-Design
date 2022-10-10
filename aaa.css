@@ -41,7 +41,16 @@
         /* background: linear-gradient(90deg, #7C32FF 0%, #A235EC 70%, #C738D8 100%); */
 }
 
-.ddd{
+.ddd {
         background: linear-gradient(90deg, #7C32FF 0%, #A235EC 70%, #C738D8 100%);
         color: white;
+}
+
+.vv {
+        position: relative;
+}
+
+.oo {
+        position: static;
+        top: 0;
 }
